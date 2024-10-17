@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
-<<<<<<< HEAD
-using System.IO;
-=======
->>>>>>> e67f4211ee2325fef7176c92f25849daa06642e7
+//<<<<<<< HEAD
+//using System.IO;
+//=======
+//>>>>>>> e67f4211ee2325fef7176c92f25849daa06642e7
 
 namespace Notes
 {
@@ -20,7 +20,7 @@ namespace Notes
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
